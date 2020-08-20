@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: linear-gradient(#dfdfdf 1%, #ffffff);
+}
+
+.text {
+  margin: 20px auto;
+  font-size: 30px;
+  color: #5d5858;
+}
+#input {
+  height: 30px;
+  width: 250px;
+  margin: 20px auto;
+  border: solid 1px grey;
+  font-size: 18px;
+}
+
+.country-block,
+.one-country-block {
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.country-name {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.list-item {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.list li {
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.flag_img {
+  width: 300px;
+  height: auto;
+}
+
+.list-languages {
+  list-style: square;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.error {
+  margin: 0 auto;
+}

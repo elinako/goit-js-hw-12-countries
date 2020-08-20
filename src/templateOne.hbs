@@ -1,0 +1,17 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<p class="country-name">{{name}}</p>
+<ul class="list">
+    <li><span class="list-item">Capital</span>: {{capital}}</li>
+    <li><span class="list-item">Population:</span>{{population}}</li>
+    <li><span class="list-item">Languages:</span>
+        <ul class="list-languages">
+            {{#each languages}}
+            <li class="list-languages-item">{{this.name}}</li>
+            {{/each}}
+        </ul>
+    </li>
+    <li><img src="{{flag}}" alt="flag" class="flag_img"></li>
+</ul>
